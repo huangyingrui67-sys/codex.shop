@@ -1,0 +1,11 @@
+{
+  "name": "qinghe-restaurant",
+  "version": "1.0.0",
+  "private": true,
+  "description": "青禾 · 自然系餐厅首页",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "check": "node --check app.js && node --check server.js"
+  }
+}

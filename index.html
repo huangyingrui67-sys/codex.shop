@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f5f3eb">
+  <meta name="description" content="青禾，以时令入馔，把自然端上餐桌。发现当季料理，为平常的一天留下一段好好吃饭的时光。">
+  <title>青禾 QINGHE — 好好吃饭，慢慢生活</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preload" href="assets/hero.jpg" as="image">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳转至内容</a>
+  <header class="site-header">
+    <a href="#" class="brand" aria-label="青禾首页"><svg viewBox="0 0 40 48" aria-hidden="true"><path d="M20 44V14M20 29C7 29 3 20 5 10c11 1 16 8 15 19ZM20 22C20 10 28 4 36 3c1 11-5 18-16 19ZM20 39C27 29 33 30 37 29"/></svg><span class="brand-name">青禾<span>QINGHE</span></span></a>
+    <nav class="desktop-nav" aria-label="主导航"><a href="#menu">当季菜单</a><a href="#story">关于青禾</a><a href="#visit">寻味而来</a></nav>
+    <div class="header-actions"><button class="button button-small" data-reserve>预约一席 <span>↗</span></button><button class="nav-toggle" aria-label="展开导航" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span></button></div>
+    <nav id="mobile-nav" class="mobile-nav" aria-label="移动导航" hidden><a href="#menu">当季菜单</a><a href="#story">关于青禾</a><a href="#visit">寻味而来</a></nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section-wrap" aria-labelledby="hero-heading">
+      <div class="hero-copy"><div class="eyebrow"><span class="tiny-sun">✳</span> 应季而食，自在相聚 <span class="eyebrow-line"></span></div><h1 id="hero-heading">把时光，<br>慢慢吃进<span class="title-last">生活<span class="title-dot">。</span><svg viewBox="0 0 200 12" aria-hidden="true"><path d="M3 8Q94-5 195 5M25 11Q110 1 177 8"/></svg></span></h1><p class="hero-description">从田野到餐桌，让食物回到本来的味道。<br>在青禾，与四季相逢，与喜欢的人好好吃饭。</p><div class="hero-buttons"><a class="button" href="#menu">探索当季菜单 <span>↗</span></a><button class="text-button" data-reserve>留一席给自己 <span>→</span></button></div><div class="hero-footnote"><span class="small-leaf">⌁</span> 新鲜有时 · 美味正好 <span class="footnote-divider"></span> EST. 2021</div></div>
+      <div class="hero-visual"><div class="hero-image-frame"><img class="hero-image" src="assets/hero.jpg" alt="缀满当季蔬果与谷物的鲜蔬沙拉" fetchpriority="high"><div class="photo-shade"></div><span class="photo-caption">把自然，端上餐桌。<small>A LITTLE CLOSER TO NATURE</small></span></div><div class="season-badge"><span>FOLLOW THE SEASONS</span><svg viewBox="0 0 55 55" aria-hidden="true"><path d="M15 45c5-15 12-24 25-34M20 35C7 26 16 13 40 11c1 21-5 33-20 24ZM20 35l2-14m4 7 12-1"/></svg><span>一餐一季 · 自然有味</span></div><div class="open-note"><span class="status-dot"></span> 好好吃饭，从这里开始 <span>↗</span></div><span class="hero-image-index">01 / THE SEASONAL TABLE</span></div>
+    </section>
+
+    <div class="philosophy-strip"><div><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M8 27C10 17 17 9 26 5M11 21C2 10 15 3 27 4c2 16-5 24-16 17Z"/></svg><span>时令鲜食<small>SEASONAL & FRESH</small></span></div><span class="strip-dot">·</span><div><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 25h22M9 25v-6h14v6M5 19h22M16 5v8M10 6l2 3M22 6l-2 3M6 12l4 1M26 12l-4 1M12 17a4 4 0 0 1 8 0"/></svg><span>用心手作<small>CRAFTED WITH CARE</small></span></div><span class="strip-dot">·</span><div><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 15a11 11 0 1 1 5 10M5 7v8h8M16 9v8l5 3"/></svg><span>慢享片刻<small>SAVOR THE MOMENT</small></span></div><span class="strip-dot">·</span><p>不赶时间，只赶四季。</p></div>
+
+    <section id="menu" class="menu-section section-wrap" aria-labelledby="menu-heading"><div class="section-top"><div><div class="eyebrow">FROM OUR KITCHEN <span class="eyebrow-line"></span></div><h2 id="menu-heading">这一季，<em>刚刚好。</em></h2><p class="section-description">跟着时节换菜单，把当下的鲜美留在这一餐。</p></div><a class="round-link" href="#menu-list" aria-label="浏览当季菜品">↗</a></div><div class="menu-toolbar"><div class="menu-filters" role="group" aria-label="菜品分类"><button class="filter active" data-filter="all" aria-pressed="true">主厨推荐 <span>03</span></button><button class="filter" data-filter="main" aria-pressed="false">暖心主食</button><button class="filter" data-filter="light" aria-pressed="false">田园轻食</button><button class="filter" data-filter="sweet" aria-pressed="false">甜蜜收尾</button></div><span class="menu-note">随季节而变，为新鲜而来 <span>✳</span></span></div>
+      <div id="menu-list" class="dish-grid" aria-live="polite"></div>
+      <div class="menu-bottom"><span>每一道菜，都有属于这个季节的故事。</span><button class="text-button" id="full-menu">查看完整菜单 <span>↗</span></button></div>
+    </section>
+
+    <section id="story" class="story-section section-wrap" aria-labelledby="story-heading"><div class="story-photo"><img src="assets/story.jpg" alt="温暖灯光下的餐厅与摆放整齐的餐桌" loading="lazy"><div class="story-photo-label"><span>一方餐桌，<br>盛得下生活的小美好。</span><small>OUR LITTLE CORNER OF THE WORLD</small></div></div><div class="story-copy"><div class="eyebrow">THE QINGHE WAY <span class="eyebrow-line"></span></div><h2 id="story-heading">食物有来处，<br>相聚有<span class="serif-green">温度。</span></h2><p>青禾的故事，从一颗种子、一块土地开始。</p><p>我们相信，好的食物不需要太多修饰。向熟悉的农人寻得新鲜，用简单的烹饪保留本味，把对生活的认真，藏进每一道料理里。</p><p>愿这里成为你的日常一隅。一人食的自在，三五好友的谈笑，都值得被温柔款待。</p><div class="story-signature"><span>青禾，等你来坐坐。</span><span class="signature-leaf">❧</span></div><a class="text-button" href="#visit">认识我们的日常 <span>↗</span></a></div></section>
+
+    <section class="quote-section"><span class="quote-flower">✳</span><p>一蔬一饭，是日常。<br class="mobile-break">一朝一夕，是<span>热爱。</span></p><small>GOOD FOOD. GOOD COMPANY. SIMPLE JOYS.</small></section>
+
+    <section id="visit" class="visit-section section-wrap" aria-labelledby="visit-heading"><div class="visit-copy"><div class="eyebrow">A SEAT AT OUR TABLE <span class="eyebrow-line"></span></div><h2 id="visit-heading">下次见面，<br>就约在<span class="serif-green">青禾。</span></h2><p>把忙碌留在门外，让这一餐慢一点。</p><div class="visit-details"><div><span class="detail-icon">⌖</span><div><strong>藏在街角的温暖</strong><p>上海市静安区 · 愚园路 108 号</p></div></div><div><span class="detail-icon">◷</span><div><strong>等你来的时间</strong><p>周一至周日 11:00–21:30<span>午餐 · 下午茶 · 晚餐</span></p></div></div></div><button class="button" data-reserve>为相聚预约一席 <span>↗</span></button></div><div class="visit-photo"><img src="assets/visit.jpg" loading="lazy" alt="绿植环绕、阳光洒落的舒适餐厅空间"><span class="visit-photo-caption">THE DOOR IS OPEN. COME ON IN.</span></div></section>
+  </main>
+  <footer class="site-footer"><div class="footer-top"><a href="#" class="brand" aria-label="返回首页"><svg viewBox="0 0 40 48" aria-hidden="true"><path d="M20 44V14M20 29C7 29 3 20 5 10c11 1 16 8 15 19ZM20 22C20 10 28 4 36 3c1 11-5 18-16 19ZM20 39C27 29 33 30 37 29"/></svg><span class="brand-name">青禾<span>QINGHE</span></span></a><p>好好吃饭，慢慢生活。</p><a href="#main" class="back-top">回到顶部 ↑</a></div><div class="footer-bottom"><span>© <span id="year">2026</span> QINGHE 青禾</span><span>一间关于食物与日常的概念餐厅</span><span>MADE WITH NATURE & LOVE <span class="footer-flower">✳</span></span></div></footer>
+
+  <dialog id="reservation-dialog" class="reservation-dialog"><button class="dialog-close" data-close aria-label="关闭预约窗口">×</button><div class="eyebrow">A MOMENT TOGETHER</div><h2>为美好，<span class="serif-green">留一席。</span></h2><p class="dialog-description">选个好日子，和喜欢的人一起好好吃饭。</p><form id="reservation-form"><div class="form-row"><label>用餐日期<input id="booking-date" name="date" type="date" required></label><label>到店时间<select name="time" required><option value="">选择时间</option><option>11:00</option><option>12:00</option><option>13:00</option><option>14:00</option><option>17:00</option><option>18:00</option><option>19:00</option><option>20:00</option></select></label></div><div class="form-row"><label>用餐人数<select name="guests"><option value="1">1 位</option><option value="2" selected>2 位</option><option value="3">3 位</option><option value="4">4 位</option><option value="5">5 位</option><option value="6">6 位</option></select></label><label>你的称呼<input name="name" placeholder="怎么称呼你？" required maxlength="30" autocomplete="name"></label></div><label>手机号码<input name="phone" type="tel" placeholder="请输入 11 位手机号码" pattern="1[3-9][0-9]{9}" maxlength="11" autocomplete="tel" required title="请输入有效的 11 位中国大陆手机号码"></label><label>特别的心意 <span class="optional">（选填）</span><textarea name="note" placeholder="过敏食材、纪念日，或其他想告诉我们的事…" maxlength="300" rows="2"></textarea></label><button class="button form-submit" type="submit">保存用餐计划 <span>↗</span></button><p class="form-note">此为概念页面演示，计划仅保存在本机，不会发送到餐厅。</p></form><div id="reservation-success" class="reservation-success" hidden><span class="success-mark">✓</span><h3>把期待，留给相聚。</h3><p id="reservation-summary"></p><p>用餐计划已保存在本机。<br>此页面为演示，尚未产生实际订位。</p><button class="button" data-close>期待下一餐 <span>↗</span></button><button class="text-button" id="edit-reservation">修改用餐计划</button></div></dialog>
+  <dialog id="dish-dialog" class="dish-dialog"><button class="dialog-close" data-close aria-label="关闭菜品详情">×</button><img id="dish-detail-image" alt=""><div class="dish-detail-content"><span class="eyebrow" id="dish-detail-category"></span><h2 id="dish-detail-name"></h2><p id="dish-detail-description"></p><p class="dish-ingredients" id="dish-detail-ingredients"></p><div class="dish-detail-bottom"><span id="dish-detail-price"></span><button class="button" id="dish-reserve">预约品尝 <span>↗</span></button></div></div></dialog>
+</body>
+</html>
